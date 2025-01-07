@@ -49,8 +49,8 @@ jobs:
 
       # Build Docker image
       - name: Build Docker image
-        run: docker build -t pasanpiyumantha/my-node-app:v1 .
+        run: docker build -t pasanpiyumantha/my-node-app:latest .
 
       # Push Docker image to Docker Hub
       - name: Push Docker image
-        run: docker push pasanpiyumantha/my-node-app:v1
+        run: docker push pasanpiyumantha/my-node-app:latest
