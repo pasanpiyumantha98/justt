@@ -4,7 +4,7 @@ const port = 3000;
 
 // Define a route
 app.get('/', (req, res) => {
-  res.send('Hello World from Express!');
+  res.send('You are the best');
 });
 
 app.get('/name', (req, res) => {
