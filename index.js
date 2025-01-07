@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/name', (req, res) => {
-    res.send("<h1>Nimalll</h1>");
+    res.send("<h1>Nilasi</h1>");
     
   });
 
