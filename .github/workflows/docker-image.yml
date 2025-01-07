@@ -53,4 +53,4 @@ jobs:
 
       # Push Docker image to Docker Hub
       - name: Push Docker image
-        run: docker push your-image-name:latest
+        run: docker push my-node-app:latest
