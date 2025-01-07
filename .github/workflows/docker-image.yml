@@ -49,7 +49,7 @@ jobs:
 
       # Build Docker image
       - name: Build Docker image
-        run: docker build -t your-image-name:latest .
+        run: docker build -t my-node-app:latest .
 
       # Push Docker image to Docker Hub
       - name: Push Docker image
